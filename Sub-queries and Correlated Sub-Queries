@@ -3,14 +3,14 @@ GO
 --------------------------------------------------------------------------------------------------------------------
 --You need a SELECT statement that uses the COUNT function to return the number of unique mgrid values.  
 --Grading criterial: Your SELECT statement needs to return just a single row, that contains a single integer value.  
---That integer should be the number of unique mgrid values.  Do not return a list of unique mgrid’s, 
+--That integer should be the number of unique mgrid values.  Do not return a list of unique mgridâ€™s, 
 --------------------------------------------------------------------------------------------------------------------
 
 SELECT COUNT(DISTINCT mgrid) AS Unique_MGR_IDs
 FROM HR.Employees;
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
---You need to write a SELECT statement that uses a subquery to returns all the companyname’s that have placed at least one order where the freight is greater than $800.00. 
+--You need to write a SELECT statement that uses a subquery to returns all the companynameâ€™s that have placed at least one order where the freight is greater than $800.00. 
 --Grading Criteria:  Your SELECT statement needs to use a subquery.  If no subquery is used than you will be marked down. 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 SELECT companyname
